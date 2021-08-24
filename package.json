@@ -1,0 +1,15 @@
+{
+  "name": "03-node-fundamentals",
+  "version": "1.0.0",
+  "description": "node fundamentals",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rolas Najera",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.1.1"
+  }
+}
