@@ -4,10 +4,10 @@ const fs = require('fs');
 const craeateFileTable = ( base = 5, limit = 10, print = false ) => {
 
     let output = colors.green(`========  Table ${ base } by limit ${ limit }  =======\n`);
-    let fileName = `table-${ base }.txt`;
+    let fileName = `./output/table-${ base }.txt`;
 
     for( let i = 1; i <= limit; i++ ) {
-        output += colors.blue(`${ base } ${ 'x'.green } ${ i } ${ '='.green } ${ base * i }\n`);
+        output += `${ base } x ${ i } = ${ base * i }\n`;
     }
 
     if ( print ) {
